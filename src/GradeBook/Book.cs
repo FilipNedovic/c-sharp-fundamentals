@@ -6,7 +6,7 @@ namespace GradeBook
         public Book(string name)
         {
             grades = new List<double>();
-            this.name = name;
+            Name = name;
         }
         // Instance member
         public void AddGrade(double grade)
@@ -34,6 +34,7 @@ namespace GradeBook
 
         // Field definition
         private List<double> grades;
-        private string name;
+        // Public member has upper-case name
+        public string Name;
     }
 }

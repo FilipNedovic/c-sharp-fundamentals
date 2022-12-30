@@ -4,7 +4,7 @@ public class BookTests
 {
     // Attribute
     [Fact]
-    public void Test1()
+    public void BookCalculatesAnAverageGrades()
     {
         // Arrange
         var book = new Book("");
