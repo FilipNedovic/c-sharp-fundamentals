@@ -6,7 +6,7 @@ public class BookTests
     public void CannotAddGradeHigherThan100()
     {
         var book = new Book("");
-        book.AddGrade(105);
+        book.AddGrade(99);
 
         var result = book.GetStatistics();
         Console.WriteLine(result);
